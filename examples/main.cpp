@@ -8,5 +8,7 @@ void setup() {
 }
 
 void loop() {
+    Serial.println("Hello from example/main.c");
     datalink.read(Serial);
+    delay(10);
 }
